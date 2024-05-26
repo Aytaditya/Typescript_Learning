@@ -19,4 +19,10 @@ function makingCourse(name:string,price:number):{name:string,price:number}{
     return {name:name,price:price}
 }
 
+type User={name:string,age:number,email:string,isActive:boolean}
+function helloUser(user:User):void{
+    console.log(`Hello ${user.name}`)
+}
+helloUser({name:"Aditya",age:21,email:"",isActive:true}) //passing an object of type User
+
 export{}
