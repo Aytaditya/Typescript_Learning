@@ -4,10 +4,7 @@ const user={name:"Aditya",
             isActive:true,
         }
 
-const createUser=({name:string,isPaid:boolean})=>{
-   
-}
-createUser({name:user.name,isPaid:user.isActive})
+
 
 //correct way to declare a function that returns an object
 function createCourse():{name:string,price:number}{
